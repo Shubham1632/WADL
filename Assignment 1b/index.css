@@ -1,0 +1,211 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    background-image: url("./Assets/bg.jfif");
+}
+
+hr {
+    color: navy;
+}
+
+/*Changing color of scroll-bar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px orange;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: navy;
+}
+
+/*Navbar CSS*/
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    color: #63CDF5;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .nav-item a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 25px;
+}
+
+.navbar .nav-item a:hover {
+    text-decoration: underline 3px red;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url('./Assets/hamburger.png');
+}
+
+/*Photo and introduction CSS*/
+#intro {
+    margin-top: 100px;
+}
+
+#intro a {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    background-color: blue;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#intro a:hover {
+    background-color: green;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    color: #490B3D;
+}
+
+.summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Title of all sections*/
+.sec-title {
+    color: #490B3D;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*Work Experience CSS*/
+.exp h2 {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+.exp h4 {
+    font-weight: bold;
+    text-align: center;
+}
+.exp li{
+    font-size: 1.2rem;
+}
+
+/*Projects CSS*/
+#projects .card-title {
+    color: orange;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#projects a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#projects button {
+    outline: none;
+    border: none;
+    padding: auto;
+    background-color: blue;
+    text-decoration: underline none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px 0;
+    width: 40%;
+}
+
+#projects button:hover {
+    background-color: green;
+}
+
+/*Contact CSS*/
+#contact .card-body{
+    border-radius: 25px 0;
+}
+
+#contact .card-body h2{
+    color: orange;
+    font-weight: bold;
+}
+
+#contact .location-map{
+    border: 2px solid red;
+}
+
+#contact iframe{
+    width: 100%; 
+    height: 300px
+}
+/*Footer CSS*/
+footer {
+    background-color: black;
+}
+
+footer a {
+    font-size: 2.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer a:active {
+    color: azure;
+}
+
+footer a:visited {
+    color: azure;
+}
+
+.social-icon {
+    color: azure;
+
+}
+
+/* .fa-linkedin{
+    transition: transform .4s ease-in-out;
+} */
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+    /* transform: rotate(360deg); */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: lightblue;
+}

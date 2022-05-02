@@ -1,0 +1,169 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    background-image: url("./Assets/bg.jfif");
+}
+
+/*Changing color of scroll-bar*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px orange;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: navy;
+}
+
+/*Navbar CSS*/
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    color: #63CDF5;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.contact {
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    text-decoration: underline red;
+}
+
+.contact form {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.contact form label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: turquoise;
+}
+
+/*Footer CSS*/
+footer {
+    background-color: black;
+}
+
+footer a {
+    font-size: 2.2rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+footer a:active {
+    color: azure;
+}
+
+footer a:visited {
+    color: azure;
+}
+
+.social-icon {
+    color: azure;
+
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+    /* transform: rotate(360deg); */
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: lightblue;
+}
+
+
+/*media queries*/
+@media screen and (max-width:1200px) {
+    .contact {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+    .contact form {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .contact {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    .contact form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact form {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contact {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .contact form {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .contact {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact form {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
